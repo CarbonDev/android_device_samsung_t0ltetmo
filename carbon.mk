@@ -1,3 +1,6 @@
+# OVERLAY_TARGET adds overlay asset source
+OVERLAY_TARGET := pa_i9300
+
 # Specify phone tech before including full_phone
 $(call inherit-product, vendor/carbon/config/common_gsm.mk)
 
