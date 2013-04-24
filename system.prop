@@ -22,3 +22,12 @@ ro.com.google.clientidbase.am=android-tmobile-us
 ro.com.google.clientidbase.yt=android-samsung
 ro.com.google.clientidbase.gmm=android-samsung
 
+# Fields For VM Heapsize
+dalvik.vm.heapsize=512m
+dalvik.vm.heapmaxfree=8m
+dalvik.vm.heapminfree=512k
+dalvik.vm.heapstartsize=32m
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.heaputilization=0.75
+
+
