@@ -1,6 +1,10 @@
 # Release name
 PRODUCT_RELEASE_NAME := t0ltetmo
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
+
 # Inherit some common Carbon stuff.
 $(call inherit-product, vendor/carbon/config/common_phone.mk)
 
